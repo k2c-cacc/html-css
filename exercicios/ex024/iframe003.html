@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iFrame</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe#tela {
+            width: 95vw;
+            height: 400px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. In sed quis ea, non odit molestiae quo laborum totam
+        corrupti numquam sequi! Et ut natus, porro ea aspernatur delectus assumenda debitis!
+    </p>
+
+    <ul>
+        <!-- Observar a ligação entre a.target com o iframe.name para o funcionamento-->
+        <li><a href="paginas-extras/pag001.html" target="frame">Primeira Página</a></li>
+        <li><a href="./paginas-extras/pag002.html" target="frame">Segunda Página</a></li>
+        <li><a href="./paginas-extras/pag003.html" target="frame">Terceira Página</a></li>
+    </ul>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam eius et, dolores doloremque asperiores dolor?
+        Ipsum pariatur maxime natus nobis, enim error dignissimos, reprehenderit totam velit ullam ut vitae quas. Lorem
+        ipsum dolor, sit amet consectetur adipisicing elit. Earum officia libero labore dicta perspiciatis voluptate
+        sunt voluptatum possimus reprehenderit suscipit aspernatur eius culpa ullam, quidem vitae quis eligendi fugiat
+        commodi.</p>
+
+    <iframe id="tela" name="frame" src="">
+        <p>infelizmente seu navegador não é compatível</p>
+    </iframe>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, ex maiores sunt assumenda temporibus a eveniet
+        voluptatibus et quae, quod laboriosam mollitia dicta ut repellendus accusamus, eligendi quam rem voluptatum.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde alias consectetur nam quam optio temporibus,
+        incidunt labore hic harum doloribus debitis tenetur nihil dolor earum quas saepe velit! Unde, illo!</p>
+</body>
+
+</html>
